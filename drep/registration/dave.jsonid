@@ -1,5 +1,6 @@
 {
   "@context": {
+    "@language": "en-us",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
@@ -51,14 +52,26 @@
     }
   },
   "authors": [],
-  "hashAlgorithm": "blake2b-256",
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
   "body": {
     "doNotList": false,
-    "givenName": "Dave",
-    "motivations": "",
-    "objectives": "",
-    "paymentAddress": "addr1qylwv903e4rega5ft0nfdlxrxmuh9ft3dcx784x6727d7ekfx0hzmuy3ps04xmgs6j0hxfn2jcwj94f56h8y43g5h4zsgn2kf6",
-    "qualifications": "",
+    "givenName": {
+      "@value": "Dave"
+    },
+    "motivations": {
+      "@value": ""
+    },
+    "objectives": {
+      "@value": ""
+    },
+    "paymentAddress": {
+      "@value": "addr1qylwv903e4rega5ft0nfdlxrxmuh9ft3dcx784x6727d7ekfx0hzmuy3ps04xmgs6j0hxfn2jcwj94f56h8y43g5h4zsgn2kf6"
+    },
+    "qualifications": {
+      "@value": ""
+    },
     "references": []
   }
 }
